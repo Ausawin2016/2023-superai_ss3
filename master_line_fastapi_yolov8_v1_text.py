@@ -13,8 +13,8 @@ from linebot.models import MessageEvent, ImageMessage
 app = FastAPI()
 
 # Initialize Line bot API and webhook handler
-line_bot_api = LineBotApi("8cLhtRF/IT/zqL/nsW0QEkU3Bn7IJySYZSSUPsSuCAUtY8eX5l2iCc5Qt7IZ5JW0k93/DYRG2tQV1mDebZfUJEOxkpJCHI4ZZyVUXPaZ9O7RbDD79vLeDBoSVwVbDifko8bdmTJASCw5hjQXCTnR9AdB04t89/1O/w1cDnyilFU=") #YOUR_CHANNEL_ACCESS_TOKEN
-handler = WebhookHandler("afc188a0fbbc478a55d81e36c69f297b") #YOUR_CHANNEL_SECRET
+line_bot_api = LineBotApi("") #YOUR_CHANNEL_ACCESS_TOKEN
+handler = WebhookHandler("") #YOUR_CHANNEL_SECRET
 
 
 @app.post("/webhook")
