@@ -109,7 +109,7 @@ def send_annotated_image(reply_token, image):
     image.save(image_path, format="PNG")
 
     # Upload the annotated image to Imgur
-    client_id = '55d7a0ef80b1cdb'  # Replace with your Imgur client ID
+    client_id = ' '  # Replace with your Imgur client ID
     uploaded_image_url = upload_image_to_imgur(image_path, client_id)
 
     # Check if image upload was successful
@@ -146,7 +146,7 @@ def upload_image_to_imgur(image_path, client_id):
     return image['link']
 
 image_path = '\\Users\\ausawini\\Desktop\\SuperAI-SS3\\fastapi\\image\\annotated_image.png'
-client_id = '55d7a0ef80b1cdb'
+client_id = ' '  # Replace with your Imgur client ID
 
 uploaded_image_url = upload_image_to_imgur(image_path, client_id)
 if uploaded_image_url:
