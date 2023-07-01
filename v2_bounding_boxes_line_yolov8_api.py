@@ -13,8 +13,8 @@ from imgurpython import ImgurClient
 app = FastAPI()
 
 # Initialize Line bot API and webhook handler
-line_bot_api = LineBotApi("JPCR/KIh3GqJ735g2b6Irxjeol54zNUQanJCcMLS3vcSCsByXvPLXBerIIT5oXSLk93/DYRG2tQV1mDebZfUJEOxkpJCHI4ZZyVUXPaZ9O4u4PU+g7+Hhh0wbaLMVBCS7ijy8xZZDFvRtgUB4exErAdB04t89/1O/w1cDnyilFU=") #YOUR_CHANNEL_ACCESS_TOKEN
-handler = WebhookHandler("afc188a0fbbc478a55d81e36c69f297b") #YOUR_CHANNEL_SECRET
+line_bot_api = LineBotApi("") #YOUR_CHANNEL_ACCESS_TOKEN
+handler = WebhookHandler("") #YOUR_CHANNEL_SECRET
 
 @app.post("/webhook")
 async def webhook(request: Request):
