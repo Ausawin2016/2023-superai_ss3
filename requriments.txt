@@ -1,0 +1,6 @@
+pip install ultralytics
+pip install fastapi
+pip install uvicorn
+pip install line-bot-sdk
+pip install imgur-python
+

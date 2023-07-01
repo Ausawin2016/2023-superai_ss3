@@ -1,0 +1,11 @@
+names:
+- Gel Alcohol
+- Glove
+- Hardhat
+- Safety Belt
+- Safety Shoes
+- Safety Vest
+nc: 6
+test: /kaggle/input/safety-detectv2/objectdetect_v2/data/test
+train: /kaggle/input/safety-detectv2/objectdetect_v2/data/train
+val: /kaggle/input/safety-detectv2/objectdetect_v2/data/val
